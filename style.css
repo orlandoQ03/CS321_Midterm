@@ -10,6 +10,7 @@ body {
 
 #outcomes {
     margin: 50px;
+    flex-direction: column;
 }
 
 h2 {
@@ -17,9 +18,11 @@ h2 {
 }
 
 .outcome {
-    margin-bottom: 20px;
-    padding: 20px;
-    padding-bottom: 25px;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 75%;
+    padding: 15px;
     border: 1px solid #e1e1e1;
     border-radius: 12px; 
     color: #fff;
@@ -49,10 +52,6 @@ h2 {
     background-color: #34495e;
 }
 
-.post-footer {
-
-}
-
 .footer-button {
     background-color: rgba(255, 255, 255, 0.35);
     border-radius: 10px;
@@ -63,7 +62,22 @@ h2 {
     border: none;
     font-size: medium;
 }
+
 .footer-button:hover {
     background-color: rgba(255, 255, 255, 0.2);
     cursor: pointer;
+}
+
+header h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
 }
