@@ -1,11 +1,30 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 20px;
+    margin: 25px;
 }
 
-#blog-overview {
-    margin-left: 50px;
-    margin-right: 50px;
+#subheading {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    align-self: center;
+}
+
+#subheading-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    align-content: center;
+}
+
+#navigation-bar {
+    display: flex;
+    flex-direction: column; 
+    width: 20%; 
+    position: fixed;
+    left: 0; 
+    top: 0; 
+    height: 10
 }
 
 #outcomes {
